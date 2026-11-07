@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Goes To Trip</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="atas">
+      <div class="wadah">
+        <a href="#" class="merek">Bromo Trip</a>
+        <nav>
+          <a href="#fitur">Fitur</a>
+          <a href="#faq">FAQ</a>
+          <a href="#daftar" class="tombol kecil">Daftar</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wadah hero-layout">
+          <div class="hero-copy">
+            <h1>Saksikan Sunrise Spektakuler di Atas Awan Bromo</h1>
+            <p>
+              Paket trip lengkap & praktis dari penjemputan, sewa jeep, hingga dokumentasi foto untuk momen tak terlupakan.
+            </p>
+            <a href="#daftar" class="tombol">Pesan Trip Sekarang</a>
+          </div>
+          <div id="daftar" class="hero-daftar">
+            <h2>Daftar</h2>
+            <form id="form-daftar" class="kartu form" novalidate>
+              <label>Email adress <input name="email" type="email" placeholder="Type or Enter Email adress" required /></label>
+              <label>Nomor Telepon <input name="telepon" type="tel" placeholder="Type or Enter Phone Number" required /></label>
+              <p id="pesan" class="pesan" hidden></p>
+              <button>Kirim</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="fitur" class="wadah">
+        <h2>Fitur</h2>
+        <!-- Kartu fitur diisi oleh script.js -->
+        <div id="daftar-fitur" class="grid"></div>
+      </section>
+
+      <section id="faq" class="wadah">
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+        <details>
+          <summary>Berapa biaya yang perlu di siapkan?</summary>
+          <p>Cukup membawa 1.5 juta.</p>
+        </details>
+        <details>
+          <summary>Dimana mana lokasi titik kumpul?</summary>
+          <p>Lokasi titik kumpul berada di terminal bus Malang.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="bawah">
+      <div class="wadah">Hmmm</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
